@@ -72,5 +72,5 @@ Talos/
 ---
 
 ## Autor
-**Jacinto Carbone** — *Tecnología en Mecatrónica (UTEC, Uruguay)*  
+**Jacinto Carbone** — *Ingeniería en Mecatrónica (UTEC, Uruguay)*  
 [https://jacintocarbone.github.io](https://jacintocarbone.github.io)
