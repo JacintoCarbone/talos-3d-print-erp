@@ -1,4 +1,4 @@
-# 🦾 Talos — 3D Printing ERP & Additive Manufacturing Manager
+# Talos — 3D Printing ERP & Additive Manufacturing Manager
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
@@ -10,30 +10,30 @@ Desarrollada con **Kotlin**, **Jetpack Compose** y persistencia relacional **Roo
 
 ---
 
-## 🌟 Funcionalidades Principales
+## Funcionalidades Principales
 
-### 1. 📦 Control de Inventario de Filamentos en Tiempo Real
+### 1. Control de Inventario de Filamentos en Tiempo Real
 - Seguimiento exacto por bobina: **Marca, Material (PLA, PETG, ABS, TPU), Color (con selector cromático Hex)** y peso restante en gramos (`gramos` vs `totalGramos`).
 - Descuento automático de gramos de filamento al registrar órdenes de producción y ventas.
 
-### 2. 🏭 Gestión de Producción y Pedidos (`Kanban / Estados`)
-- Flujo de estados de planta: `Pendiente` ➔ `Imprimiendo` ➔ `Listo` ➔ `Entregado`.
+### 2. Gestión de Producción y Pedidos (Kanban / Estados)
+- Flujo de estados de planta: `Pendiente` -> `Imprimiendo` -> `Listo` -> `Entregado`.
 - Vinculación relacional (`ForeignKey` en cascada) entre pedidos de clientes y múltiples bobinas de filamento consumidas.
 - Integración directa con contacto del cliente.
 
-### 3. 🧮 Cotizador Paramétrico de Impresión 3D
+### 3. Cotizador Paramétrico de Impresión 3D
 - Motor de cálculo de costos basado en parámetros operativos configurables (`ConfigEntity`):
   - Costo energético/operativo por hora de máquina (`costoPorHora`).
   - Costo por kilogramo de filamento (`costoPorKiloFilamento`).
   - Margen de ganancia objetivo (`porcentajeGanancia`).
   - Recargo por diseño/personalización CAD (`porcentajePersonalizacion`).
 
-### 4. 📊 Libro Mayor Financiero (`Ventas & Gastos`)
+### 4. Libro Mayor Financiero (Ventas & Gastos)
 - Registro histórico de flujo de caja (`MovimientoEntity`), cálculo de costos reales de materia prima por venta (`VentaFilamentoEntity`) y métricas de rentabilidad.
 
 ---
 
-## 🏗️ Arquitectura Técnica
+## Arquitectura Técnica
 
 ```text
 Talos/
@@ -57,7 +57,7 @@ Talos/
 
 ---
 
-## 🚀 Compilación y Ejecución
+## Compilación y Ejecución
 
 1. Clonar el repositorio:
    ```bash
@@ -71,6 +71,6 @@ Talos/
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 **Jacinto Carbone** — *Tecnología en Mecatrónica (UTEC, Uruguay)*  
-🌐 [https://jacintocarbone.github.io](https://jacintocarbone.github.io)
+[https://jacintocarbone.github.io](https://jacintocarbone.github.io)
