@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Stylized Geometric Labyrinth / 3D Printer Head path -->
+    <path
+        android:pathData="M20,20 L80,20 L80,80 L50,80 L50,50 L65,50 L65,35 L35,35 L35,65 L50,65"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M10,10 L90,10 L90,90 L10,90 Z"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M50,10 L50,0 M90,50 L100,50 M50,90 L50,100 M10,50 L0,50"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+</vector>
